@@ -70,9 +70,6 @@ function countSurroundingMines(cell) {
   for (let i = 0; i < surrounding.length; i++) {    // loop through surrounding cells
     if (surrounding[i].isMine === true) {       // check to see if they have isMine = true
       count++
-    }  else {
-      console.log(count)
-      return count
     }                                // add to a count variable if yes // first create the count variable (var count = 0)
   }
   return count;
